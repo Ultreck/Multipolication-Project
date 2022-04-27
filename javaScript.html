@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <script>
+            // const greeting = () => {
+            //   for (i = 1; i <= 5; i++)
+            //   {
+            //         alert( i + ". " + "Hello how are you?")
+            //   }
+            // }
+
+
+            let arry = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
+            const arrayassignment = () => {
+            
+              for (j = 0; j < arry.length; j++)
+              {
+                  alert("Day" + j + " " + arry[j]);
+                    if (j == arry.length)
+                    {
+                        alert("Day" + j + " " + arry[j]);
+                        // setTimeout("arrayassignment()");
+                        
+                    } 
+              }
+            }
+            
+      </script>
+</head>
+<body>
+      <!-- <button onclick="greeting()">Greeting</button> -->
+      <button onclick="arrayassignment()">ArrayLoops</button>
+</body>
+</html>
