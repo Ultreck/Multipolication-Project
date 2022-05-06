@@ -1,0 +1,48 @@
+body{
+      padding: 0;
+      margin: 0;
+      font-family: Verdana;
+      background: linear-gradient(to right, blue, green);
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+}
+.display{
+      display: grid;
+      justify-content: center;
+      margin: 20% 0;
+      grid-template-columns: repeat(4, 80px);
+      grid-template-rows: minmax(50px, auto) repeat(6, 80px);
+}
+.one{
+      grid-column: 1/-1;
+      background-color: white;
+      font-size: 20px;
+      height: 50px;
+     display: flex;
+     color: black;
+     justify-content: flex-end;
+     padding: 10px;
+}
+.btn{
+      font-size: 25px;
+}
+
+
+@keyframes calculator {
+      0%{
+          transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+          -moz-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          -o-transform: scale(1.1);
+}
+}
+.spec1{
+      grid-column: 2 span;
+}
+.btn:hover{
+      color:orangered;
+      animation: calculator .1s linear  1 normal ;
+      -webkit-animation: calculator .1s linear  1 normal ;
+}

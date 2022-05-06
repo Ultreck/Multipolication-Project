@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>While Loops</title>
+      <script src="whileLoop.js"></script>
+      <style>
+            .parent1{
+                  display: flex;
+                  padding: 40px;
+                  background-color: rgb(197, 196, 196);
+                  justify-content: center;
+                  flex-flow: column;
+                  width: 50%;
+                  margin: 10% auto;
+            }
+            input{
+                  border-radius: 5px;
+                  border: 1px solid red;
+            }
+            label{
+                  font-size: 20px;
+                  margin: 5px;
+            }
+            button{
+                  width: 50%;
+                  background-color: blue;
+                  color: white;
+                  font-size: 18px;
+                  margin: 0 25%;
+                  padding-top: 5px;
+                  margin: 10px auto;
+            }
+            /* .parent1{
+                  background-color: red;
+                  display: flex;
+                  flex-flow: column;
+                  justify-content: center;
+                  padding: 10px;
+                  margin: 0px auto;
+                  align-items: center;
+            } */
+      </style>
+</head>
+<body>
+      <div class="container">
+            <table class="parent1" border="1">
+                  <tr class="row1">
+                      <td>
+                        <label for="inputOne">Number Of column:</label>
+                        <input type="text" id="pt1">
+                      </td>
+                  </tr><br>
+                  <tr class="row2">
+                         <td>
+                              <label for="inputOne">Number Of Row:</label>
+                              <input type="text" id="pt2">
+                         </td>
+                    </tr><br>
+                    <tr class="row3">
+                         <td>
+                              <label for="inputOne">Start From:</label>
+                              <input type="text" id="pt3">
+                         </td>
+                    </tr>
+                   <tr>
+                         <td>
+                              <button class="submit" onclick="submitData2()">Submit</button>
+                         </td>
+                   </tr>
+            </table>
+         </div>
+      
+        <div class="parent2" id="display"></div>
+      
+</body>
+</html>
